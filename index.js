@@ -63,3 +63,7 @@ console.log(x ** y);
 console.log(++x);
 // Decrement
 console.log(--x);
+
+// Assignment Operators
+x += 5;
+y *= 2;
