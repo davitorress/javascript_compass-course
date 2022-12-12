@@ -34,3 +34,10 @@ while (i < 4) {
 	if (i % 2 === 0) console.log("While loop", i);
 	i++;
 }
+
+// Do-while
+let j = 5;
+do {
+	console.log("Do-while loop", j);
+	j++;
+} while (j < 4);
