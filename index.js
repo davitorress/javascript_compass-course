@@ -86,3 +86,8 @@ console.log(x !== 1);
 console.log(x == "1");
 console.log(x == 1);
 console.log(x != 1);
+
+// Ternary Operators
+let points = 110;
+let type = points > 100 ? "gold" : "silver";
+console.log(type);
