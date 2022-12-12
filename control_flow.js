@@ -41,3 +41,10 @@ do {
 	console.log("Do-while loop", j);
 	j++;
 } while (j < 4);
+
+// For...in
+const person = {
+	name: "Davi",
+	age: 18,
+};
+for (let prop in person) console.log(prop, person[prop]);
