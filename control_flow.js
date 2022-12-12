@@ -48,3 +48,7 @@ const person = {
 	age: 18,
 };
 for (let prop in person) console.log(prop, person[prop]);
+
+// For...of
+const colors = ["red", "green", "blue"];
+for (let color of colors) console.log(color);
