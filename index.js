@@ -91,3 +91,20 @@ console.log(x != 1);
 let points = 110;
 let type = points > 100 ? "gold" : "silver";
 console.log(type);
+
+// Logical Operators
+// AND (&&)
+console.log(false && true);
+// OR (||)
+console.log(false || true);
+// NOT (!)
+console.log(!true);
+
+// Falsy (false) -> undefined, null, 0, false, "", NaN
+// Anything that ins't Falsy -> Truthy (true)
+
+// Short-circuiting
+let userColor = "red";
+let defaultColor = "blue";
+let currentColor = userColor || defaultColor;
+console.log(currentColor);
