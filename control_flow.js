@@ -27,3 +27,10 @@ switch (role) {
 for (let i = 0; i < 4; i++) {
 	if (i % 2 !== 0) console.log("For loop", i);
 }
+
+// While
+let i = 0;
+while (i < 4) {
+	if (i % 2 === 0) console.log("While loop", i);
+	i++;
+}
