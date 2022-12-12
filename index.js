@@ -67,3 +67,22 @@ console.log(--x);
 // Assignment Operators
 x += 5;
 y *= 2;
+
+// Comparison Operators
+x = 1;
+
+// Relational
+console.log(x > 0);
+console.log(x >= 1);
+console.log(x < 1);
+console.log(x <= 1);
+
+// Equality
+// Strict equality (type + value)
+console.log(x === "1");
+console.log(x === 1);
+console.log(x !== 1);
+// Lose equality (value)
+console.log(x == "1");
+console.log(x == 1);
+console.log(x != 1);
