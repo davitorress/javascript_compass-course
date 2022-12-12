@@ -52,3 +52,18 @@ for (let prop in person) console.log(prop, person[prop]);
 // For...of
 const colors = ["red", "green", "blue"];
 for (let color of colors) console.log(color);
+
+// Break and Continue
+let k = 0;
+while (k <= 10) {
+	// if (k === 5) break;
+	/*
+	if (k % 2 === 0) {
+		k++;
+		continue;
+	}
+	*/
+
+	console.log(k);
+	k++;
+}
