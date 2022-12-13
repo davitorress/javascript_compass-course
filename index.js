@@ -6,3 +6,4 @@
 // import "./control_flow.js";
 // import "./objects.js";
 // import "./arrays.js";
+// import "./functions.js";
