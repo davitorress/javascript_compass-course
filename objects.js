@@ -15,3 +15,18 @@ const circle = {
 };
 
 circle.draw(); // Method
+
+// Factory Function
+function createCircle(radius) {
+	return {
+		radius, // radius: radius
+		draw() {
+			console.log("draw");
+		},
+	};
+}
+
+const circle1 = createCircle(1);
+const circle2 = createCircle(2);
+console.log(circle1);
+console.log(circle2);
