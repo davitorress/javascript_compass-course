@@ -14,8 +14,8 @@ let priceRanges = [
 	{
 		label: "$$$",
 		tooltip: "Expensive",
-		minPerPerson: 0,
-		maxPerPerson: 10,
+		minPerPerson: 21,
+		maxPerPerson: 30,
 	},
 ];
 
